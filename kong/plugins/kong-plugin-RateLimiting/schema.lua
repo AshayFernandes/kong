@@ -24,7 +24,7 @@ end
 
 
 return {
-  name = "rate-limiting",
+  name = "kong-plugin-RateLimiting",
   fields = {
     { protocols = typedefs.protocols_http },
     { config = {
